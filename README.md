@@ -9,21 +9,21 @@ The objective of the project "Computer Vision Techniques with Ultralytics YOLO" 
 - Python: The programming language used for implementing the YOLO models and computer vision tasks.
 
 ### Project Flow:
-•	Initialize the YOLOv11 model and load necessary libraries.
-•	Capture video frames or images for analysis.
-•	Process each frame using YOLOv11 to detect specified objects.
-•	Record predictions and performance metrics for each object.
-•	Present results in a structured table for comparison.
+- Initialize the YOLOv11 model and load necessary libraries.
+- Capture video frames or images for analysis.
+- Process each frame using YOLOv11 to detect specified objects.
+- Record predictions and performance metrics for each object.
+- Present results in a structured table for comparison.
 
 ### About Ultralytics YOLO
 Ultralytics YOLO is a state-of-the-art real-time object detection and image segmentation model, with the latest version being YOLOv11. Announced at the YOLO Vision 2024 event, YOLOv11 offers significant improvements in speed and accuracy compared to its predecessors, such as YOLOv8. The model is designed for various tasks, including object detection, image classification, pose estimation, and real-time tracking. YOLOv11 features a streamlined architecture that reduces parameters while enhancing performance, achieving faster inference times (up to 5-6 ms per image) suitable for real-time applications. It supports multiple platforms, from edge devices to cloud systems, making it versatile for different industries. Users can easily integrate YOLOv11 into their workflows for training and deployment. The model also emphasizes user-friendliness with extensive documentation and community support, allowing developers to leverage its capabilities effectively in diverse applications like autonomous vehicles and surveillance systems.
 
 ### Key Features of Ultralytics YOLOv11
-•	Enhanced Feature Extraction: Improved backbone and neck architecture for more precise object detection and complex task performance.
-•	Optimized for Efficiency and Speed: Refined architectural designs and optimized training pipelines for faster processing speeds while balancing accuracy and performance.
-•	Greater Accuracy with Fewer Parameters: Achieves higher mean Average Precision (mAP) on the COCO dataset using 22% fewer parameters than YOLOv8m, enhancing computational efficiency without compromising accuracy.
-•	Adaptability Across Environments: Seamlessly deployable on edge devices, cloud platforms, and systems with NVIDIA GPUs for maximum flexibility.
-•	Broad Range of Supported Tasks: Supports various computer vision challenges, including object detection, instance segmentation, image classification, pose estimation, and oriented object detection (OBB).
+- Enhanced Feature Extraction: Improved backbone and neck architecture for more precise object detection and complex task performance.
+- Optimized for Efficiency and Speed: Refined architectural designs and optimized training pipelines for faster processing speeds while balancing accuracy and performance.
+- Greater Accuracy with Fewer Parameters: Achieves higher mean Average Precision (mAP) on the COCO dataset using 22% fewer parameters than YOLOv8m, enhancing computational efficiency without compromising accuracy.
+- Adaptability Across Environments: Seamlessly deployable on edge devices, cloud platforms, and systems with NVIDIA GPUs for maximum flexibility.
+- Broad Range of Supported Tasks: Supports various computer vision challenges, including object detection, instance segmentation, image classification, pose estimation, and oriented object detection (OBB).
 
 ![image](https://github.com/user-attachments/assets/595744be-1518-4549-ad37-853eb46c50e5)
 Figure 1: Performance comparison of different YOLO versions
