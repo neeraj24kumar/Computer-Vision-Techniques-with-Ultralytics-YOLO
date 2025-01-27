@@ -32,6 +32,7 @@ Figure 1: Performance comparison of different YOLO versions
 Object detection identifies and locates objects within an image using bounding boxes. YOLOv11 excels at real-time object detection, providing fast and accurate predictions of object classes and their positions in the frame.
 
 ![image](https://github.com/user-attachments/assets/8b2446ca-cf1e-484a-bf13-b24943676555)
+
 Table 1: Yolo11n Object Detection Model
 
 ![image](https://github.com/user-attachments/assets/bfe68041-e25a-4ca6-bd85-12967bc52bf3)
@@ -52,7 +53,7 @@ Figure 5: Object 4
 
 ![image](https://github.com/user-attachments/assets/cd11ab81-79b6-43e8-924f-de0b77edbe27)
 
-Figure 18: Object 5
+Figure 6: Object 5
 
 ### Result: - 
 Among the five objects mentioned above, object 5 achieved the highest confidence level of 0.93, while object 2 had the lowest confidence level of 0.35. The model can predict four objects with confidence levels greater than 0.50, indicating that it is a good detection model that requires less training time.
@@ -61,39 +62,36 @@ Among the five objects mentioned above, object 5 achieved the highest confidence
 ### Yolo11n-cls Object Classification Model: - 
 The task of identifying and labelling objects within an image. YOLOv11 can classify images into predefined categories, such as distinguishing between different types of animals or vehicles.
 
+![image](https://github.com/user-attachments/assets/2a66c681-0282-4f98-9441-e17f58b67b37)
 
 Table 2: Yolo11n-cls Object Classification Model
 
-  
-Figure 19: Object 1
+![image](https://github.com/user-attachments/assets/c8af8530-20dd-4e78-853a-ca9aed347597)
+
+Figure 7: Object 1
+
+![image](https://github.com/user-attachments/assets/9d680dce-a952-4024-b2e5-a5f6c8aea11f)
+
+Figure 8: Object 2
 
 
   
-Figure 20: Object 2
-
-
-  
-Figure 21: Object 3
+Figure 9: Object 3
 
   
-Figure 22: Object 4
+Figure 10: Object 4
 
   
-Figure 23: Object 5
+Figure 11: Object 5
 
 Result: - 
 Among the five objects mentioned above, object 2 achieved the highest confidence level of 0.38, while object 5 had the lowest confidence level of 0. The model can predict four objects with confidence levels below 0.50, suggesting that it is a poor classification model that requires more training time.
 .
 
-Yolo11n-seg Object Segmentation Model: - 
+### Yolo11n-seg Object Segmentation Model: - 
 This involves partitioning an image into multiple segments or regions to simplify the representation of an image. YOLOv11 performs instance segmentation, which not only detects objects but also delineates their boundaries, allowing for pixel-level classification.
 
-Object No.	Actual	Predicted	Confidence level (0-1)
-1	Potted Plant	vase	0.60
-2	Bottle	Bottle	0.47
-3	Cell Phone	Cell Phone	0.63
-4	Book	Book	0.70
-5	Person	Person	0.93
+
 Table 3: Yolo11n-seg Object Segmentation Model
   
 Figure 24: Object 1
