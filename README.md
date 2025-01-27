@@ -32,6 +32,7 @@ Figure 1: Performance comparison of different YOLO versions
 Object detection identifies and locates objects within an image using bounding boxes. YOLOv11 excels at real-time object detection, providing fast and accurate predictions of object classes and their positions in the frame.
 
 ![image](https://github.com/user-attachments/assets/8b2446ca-cf1e-484a-bf13-b24943676555)
+Table 1: Yolo11n Object Detection Model
 
 ![image](https://github.com/user-attachments/assets/bfe68041-e25a-4ca6-bd85-12967bc52bf3)
 
@@ -60,12 +61,7 @@ Among the five objects mentioned above, object 5 achieved the highest confidence
 ### Yolo11n-cls Object Classification Model: - 
 The task of identifying and labelling objects within an image. YOLOv11 can classify images into predefined categories, such as distinguishing between different types of animals or vehicles.
 
-Object No.	Actual	Predicted	Confidence level (0-1)
-1	Potted Plant	vase	0.15
-2	Bottle	Water bottle	0.38
-3	Cell Phone	Cellular telephone	0.04
-4	Book	Notebook	0.09
-5	Person	None	0
+
 Table 2: Yolo11n-cls Object Classification Model
 
   
