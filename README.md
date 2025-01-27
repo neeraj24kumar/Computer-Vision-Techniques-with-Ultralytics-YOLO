@@ -34,18 +34,23 @@ Object detection identifies and locates objects within an image using bounding b
 ![image](https://github.com/user-attachments/assets/8b2446ca-cf1e-484a-bf13-b24943676555)
 
 ![image](https://github.com/user-attachments/assets/bfe68041-e25a-4ca6-bd85-12967bc52bf3)
+
 Figure 2: Object 1
 
 ![image](https://github.com/user-attachments/assets/332ba843-7512-4d6d-bbe0-69f11c0d6539)
+
 Figure 3: Object 2
 
 ![image](https://github.com/user-attachments/assets/867767d1-a4c3-448b-bf0a-5dcbca80d9d6)
+
 Figure 4: Object 3
 
 ![image](https://github.com/user-attachments/assets/8059e003-f617-4665-bb3f-0157d1e906b9)
+
 Figure 5: Object 4
 
 ![image](https://github.com/user-attachments/assets/cd11ab81-79b6-43e8-924f-de0b77edbe27)
+
 Figure 18: Object 5
 
 ### Result: - 
