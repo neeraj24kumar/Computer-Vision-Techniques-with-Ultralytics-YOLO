@@ -70,54 +70,74 @@ Table 2: Yolo11n-cls Object Classification Model
 
 Figure 7: Object 1
 
-![image](https://github.com/user-attachments/assets/9d680dce-a952-4024-b2e5-a5f6c8aea11f)
+![image](https://github.com/user-attachments/assets/3c9f01b8-8109-4d62-a4e9-2eec4645e2e0)
 
 Figure 8: Object 2
 
+![image](https://github.com/user-attachments/assets/cba1cf70-eb15-4be8-a41a-414caa741511)
 
-  
 Figure 9: Object 3
 
-  
+![image](https://github.com/user-attachments/assets/6415f4ff-58b6-4da4-90b7-a7db0607b956)
+
 Figure 10: Object 4
 
-  
+![image](https://github.com/user-attachments/assets/722afddc-4ab3-4649-908b-51feb9c699b3)
+
 Figure 11: Object 5
 
-Result: - 
+### Result: - 
 Among the five objects mentioned above, object 2 achieved the highest confidence level of 0.38, while object 5 had the lowest confidence level of 0. The model can predict four objects with confidence levels below 0.50, suggesting that it is a poor classification model that requires more training time.
-.
+
 
 ### Yolo11n-seg Object Segmentation Model: - 
 This involves partitioning an image into multiple segments or regions to simplify the representation of an image. YOLOv11 performs instance segmentation, which not only detects objects but also delineates their boundaries, allowing for pixel-level classification.
 
+![image](https://github.com/user-attachments/assets/846f6356-5576-4baf-a5a9-a3fdd3478622)
 
 Table 3: Yolo11n-seg Object Segmentation Model
+
+![image](https://github.com/user-attachments/assets/5c666ce7-02be-42ff-8c76-b1449256a587)
+
+Figure 12: Object 1
+
+![image](https://github.com/user-attachments/assets/aef79997-9921-4f0c-96a3-328f8851fbb0)
   
-Figure 24: Object 1
+Figure 13: Object 2
 
+![image](https://github.com/user-attachments/assets/762c5978-04dc-4d3e-91e2-fff0ec8f2c59)
 
-  
-Figure 25: Object 2
+Figure 14: Object 3
 
+![image](https://github.com/user-attachments/assets/f6f6de3c-0ae3-4722-981f-af899159157d)
 
+Figure 15: Object 4
 
-  
-Figure 26: Object 3
+![image](https://github.com/user-attachments/assets/19eea76f-e229-468f-b73b-78b150539bed)
 
-  
-Figure 27: Object 4
+Figure 16: Object 5
 
-  
-Figure 28: Object 5
-
-Result: - 
+### Result: - 
 Among the five objects mentioned above, object 5 achieved the highest confidence level of 0.93, while object 2 had the lowest confidence level of 0.47. The model can predict all five objects with confidence levels greater than 0.50, indicating that it is a good segmentation model that requires less training time.
 
-Yolo11n-pose Object Pose Estimation Model: - 
+### Yolo11n-pose Object Pose Estimation Model: - 
 This task estimates the positions of key body joints or landmarks in an image to understand human poses. YOLOv11 can detect and analyse human poses, making it useful for applications in sports analytics and human-computer interaction.
 
-  
-Figure 19: Pose Estimation
-Yolo11n Object Tracking Model: - 
+![image](https://github.com/user-attachments/assets/e521c8f9-a2ca-49a4-a2be-bb54e1fc2ecf)
+
+Figure 17: Pose Estimation
+
+
+### Yolo11n Object Tracking Model: - 
 Tracking involves following detected objects across video frames over time. YOLOv11 supports tracking capabilities, enabling continuous identification of moving objects in a sequence of frames.
+
+![image](https://github.com/user-attachments/assets/8ac1d858-2398-451b-a191-e3bb0a68fa00)
+
+Figure 18: Tracking Car in Video
+
+![image](https://github.com/user-attachments/assets/dfbcb0b7-253b-4967-8860-e8c3ae4aaf16)
+
+Figure 19: Tracking Person in Video
+
+
+
